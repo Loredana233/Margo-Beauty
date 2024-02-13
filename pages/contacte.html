@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords"
+        content="frumusețe,margo,margo beauty,machiaj,coafuri,vopsirea părului,frizuri,micropigmentare,salon,înfrumusețare">
+    <meta name="description"
+        content="Acest site informează despre salonul „Margo Beauty”, care asigură servicii de frumusețe precum coafuri, micropigmentare, frizuri, machiaj și vopsirea părului.">
+    <meta name="author" content="Știrbu Loredana, Domanciuc Lavinia">
+    <link rel="icon" href="../images/salon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <title>Margo Beauty</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/main.js"> </script>
+</head>
+
+<body>
+    <header>
+        <img src="../images/logo.jpg" class="logo">
+        <nav>
+            <ul>
+                <li class="acasa-li"> <a href="../index.html"> Acasă </a> </li>
+                <li class="servicii-li">
+                    <a href="servicii.html"> Servicii <span class="span"> &#x25BE; </span> <span class="span2"> &#x25BA;
+                        </span> </a>
+                    <ul id="servicii-ul-mobile">
+                        <li> <a href="servicii.html#coafuri"> Coafuri </a> </li>
+                        <li> <a href="servicii.html#micropigmentare"> Micropigmentare </a> </li>
+                        <li> <a href="servicii.html#machiaj"> Machiaj </a> </li>
+                        <li> <a href="servicii.html#frizuri"> Frizuri </a> </li>
+                        <li> <a href="servicii.html#vopsire"> Vopsirea părului </a> </li>
+                    </ul>
+                </li>
+                <li class="contacte-li"> <a href="contacte.html"> Contacte </a> </li>
+            </ul>
+            <a href="tel:076740309" class="button">
+                <img src="../images/phone.png" class="phone">
+                Contactează
+            </a>
+        </nav>
+        <a href="tel:076740309" class="button2">
+            <img src="../images/phone.png" class="phone">
+        </a>
+        <b id="hamburger" onclick="mobileMenu()" class="fa-solid fa-bars"> </b>
+    </header>
+
+    <main>
+        <section class="contacte">
+            <div class="adrese">
+                <p>
+                    Adresa: Cantemir, strada Ștefan-Vodă, 6
+                    <br />
+                    Telefon: 076740309
+                </p>
+                <br />
+                <a target="_blank" href="https://www.facebook.com/margaretabutuc">
+                    <img src="../images/facebook.png"> Facebook </a>
+                <br />
+                <a target="_blank" href="https://www.instagram.com/margaretabutuc/?next=%2F38fjcje959e.s%2F">
+                    <img src="../images/instagram.png"> Instagram </a>
+                <br />
+                <a target="_blank" href="https://www.tiktok.com/@margaretazlati?_t=8iwawSZwNLp&_r=1">
+                    <img src="../images/tik-tok.png"> TikTok </a>
+            </div>
+
+            <div class="iframe">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d848.3276823137649!2d28.202318002584494!3d46.27530599904592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDbCsDE2JzMxLjAiTiAyOMKwMTInMDkuNCJF!5e1!3m2!1sen!2s!4v1707831566858!5m2!1sen!2s"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+
+            <div class="fb-comments" data-width="100%" dat-order-by="reverse_time" data-numposts="10"
+                data-href="http://www.gimnaziulenichioi">
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h2 class="centered">Margo Beauty
+            <img class="copyright" src="../images/copyright.png">
+        </h2>
+    </footer>
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+</body>
+
+</html>
