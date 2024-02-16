@@ -430,13 +430,13 @@ iframe {
     }
 }
 
-@media (max-width:1540px) {
+@media (max-width:1560px) {
     .button {
         margin-right: 200px;
     }
 
     .fundal {
-        height: 87.60dvh;
+        height: 86dvh;
     }
 
     .custom-shape-divider-bottom-1705069762 {
@@ -547,7 +547,7 @@ iframe {
 
     .fundal {
         object-fit: inherit;
-        height: 90dvh;
+        height: 89dvh;
     }
 
     .program {
@@ -594,6 +594,12 @@ iframe {
         100% {
             transform: scale(1) rotate(0deg);
         }
+    }
+}
+
+@media (max-width:1300px) {
+    .fundal {
+        height: 87dvh;
     }
 }
 
@@ -662,6 +668,12 @@ iframe {
         100% {
             transform: scale(1) rotate(0deg);
         }
+    }
+}
+
+@media (max-width:1100px) {
+    .fundal {
+        height: 84dvh;
     }
 }
 
@@ -753,7 +765,7 @@ iframe {
 
     .fundal {
         object-fit: inherit;
-        height: 78dvh;
+        height: 85dvh;
         margin-top: 110px;
     }
 
@@ -844,5 +856,41 @@ iframe {
 
     #galerie {
         margin: 0;
+    }
+}
+
+@media (max-width:720px) {
+    .fundal {
+        height: 79dvh;
+    }
+}
+
+@media (max-width:600px) {
+    .fundal {
+        height: 87dvh;
+    }
+}
+
+@media (max-width:400px) {
+    .fundal {
+        height: 86dvh;
+    }
+}
+
+@media (max-width:375px) {
+    .fundal {
+        height: 82dvh;
+    }
+}
+
+@media (max-width:360px) {
+    .fundal {
+        height: 85dvh;
+    }
+}
+
+@media (max-width:280px) {
+    .fundal {
+        height: 82dvh;
     }
 }
