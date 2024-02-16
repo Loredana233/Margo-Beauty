@@ -889,6 +889,12 @@ iframe {
     }
 }
 
+@media (max-width:330px) {
+    .fundal {
+        height: 79dvh;
+    }
+}
+
 @media (max-width:280px) {
     .fundal {
         height: 82dvh;
