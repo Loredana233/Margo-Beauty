@@ -873,7 +873,7 @@ iframe {
 
 @media (max-width:400px) {
     .fundal {
-        height: 86dvh;
+        height: 84dvh;
     }
 }
 
@@ -897,6 +897,6 @@ iframe {
 
 @media (max-width:280px) {
     .fundal {
-        height: 82dvh;
+        height: 79dvh;
     }
 }
