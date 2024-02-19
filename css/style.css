@@ -913,13 +913,13 @@ iframe {
 
 @media (max-width:450px) {
     .fundal {
-        max-height: 76dvh;
+        max-height: 78dvh;
     }
 }
 
 @media (max-width:430px) {
     .fundal {
-        max-height: 88dvh;
+        max-height: 77dvh;
     }
 }
 
