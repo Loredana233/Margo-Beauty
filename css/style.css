@@ -436,7 +436,7 @@ iframe {
     }
 
     .fundal {
-        height: 86dvh;
+        max-height: 89dvh;
     }
 
     .custom-shape-divider-bottom-1705069762 {
@@ -547,7 +547,7 @@ iframe {
 
     .fundal {
         object-fit: inherit;
-        height: 89dvh;
+        max-height: 89dvh;
     }
 
     .program {
@@ -599,7 +599,13 @@ iframe {
 
 @media (max-width:1300px) {
     .fundal {
-        height: 87dvh;
+        max-height: 87dvh;
+    }
+}
+
+@media (max-width:1280px) {
+    .fundal {
+        max-height: 88dvh;
     }
 }
 
@@ -629,7 +635,7 @@ iframe {
 
     .fundal {
         object-fit: inherit;
-        height: 88.96dvh;
+        max-height: 88.96dvh;
     }
 
     .program {
@@ -671,27 +677,21 @@ iframe {
     }
 }
 
-@media (max-width:1280px) {
-    .fundal {
-        height: 88dvh;
-    }
-}
-
 @media (max-width:1100px) {
     .fundal {
-        height: 84dvh;
+        max-height: 84dvh;
     }
 }
 
 @media (max-width:1024px) {
     .fundal {
-        height: 93dvh;
+        max-height: 93dvh;
     }
 }
 
 @media (max-width:820px) {
     .fundal {
-        height: 92dvh;
+        max-height: 92dvh;
     }
 }
 
@@ -868,6 +868,10 @@ iframe {
         margin-bottom: 20px;
     }
 
+    .fb-comments {
+        width: 100%;
+    }
+
     #servicii-ul-mobile a {
         font-size: 18px;
     }
@@ -879,110 +883,92 @@ iframe {
 
 @media (max-width:768px) {
     .fundal {
-        height: 89dvh;
+        max-height: 89dvh;
     }
 }
 
 @media (max-width:720px) {
     .fundal {
-        height: 79dvh;
+        max-height: 79dvh;
     }
 }
 
 @media (max-width:600px) {
     .fundal {
-        height: 89dvh;
+        max-height: 89dvh;
     }
 }
 
 @media (max-width:540px) {
     .fundal {
-        height: 84dvh;
+        max-height: 84dvh;
     }
 }
 
 @media (max-width:500px) {
     .fundal {
-        height: 76dvh;
+        max-height: 76dvh;
     }
 }
 
 @media (max-width:450px) {
     .fundal {
-        height: 76dvh;
+        max-height: 76dvh;
     }
 }
 
 @media (max-width:430px) {
     .fundal {
-        height: 88dvh;
+        max-height: 88dvh;
     }
 }
 
 @media (max-width:420px) {
     .fundal {
-        height: 76dvh;
+        max-height: 76dvh;
     }
 }
 
 @media (max-width:414px)
 {
     .fundal {
-        height: 87dvh;
+        max-height: 87dvh;
     }
 }
 
 @media (max-width:400px)
 {
     .fundal {
-        height: 84dvh;
+        max-height: 84dvh;
     }
 }
 
 @media (max-width:390px) {
     .fundal {
-        height: 86dvh;
+        max-height: 86dvh;
     }
 }
 
 @media (max-width:375px) {
     .fundal {
-        height: 82dvh;
+        max-height: 82dvh;
     }
 }
 
 @media (max-width:360px) {
     .fundal {
-        height: 85dvh;
+        max-height: 85dvh;
     }
 }
 
 @media (max-width:330px) {
     .fundal {
-        height: 79dvh;
+        max-height: 79dvh;
     }
 }
 
 @media (max-width:280px) {
     .fundal {
-        height: 83dvh;
-    }
-}
-
-@media (max-height:850px) {
-    .fundal {
-        height: 80dvh;
-    }
-}
-
-@media (max-height:667px) {
-    .fundal {
-        height: 83dvh;
-    }
-}
-
-@media (max-height:600px) {
-    .fundal {
-        height: 84dvh;
+        max-height: 83dvh;
     }
 }
